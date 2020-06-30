@@ -1,0 +1,15 @@
+def title_decorator(print_name_function):
+    def wrapper():
+        print("Dr.")
+        print_name_function()
+    return wrapper
+
+@title_decorator
+
+def print_my_name():
+    print("Chris")
+
+def print_Ron_name():
+    print("Ron")
+
+print_my_name
