@@ -7,9 +7,9 @@ def title_decorator(print_name_function):
 def print_my_name():
     print("Chris")
 
-def print_Ron_name():
+def print_name():
     print("Ron")
 
-decorated_function = title_decorator(print_Ron_name) #here is where you'll get the name
+decorated_function = title_decorator(Ron) #here is where you'll get the name
     
 decorated_function()
